@@ -1,0 +1,144 @@
+BODY {
+	BACKGROUND-COLOR: 3399FF;
+}
+.underline{
+	TEXT-DECORATION: underline;
+}
+.one{
+    text-align:center;	
+	TEXT-DECORATION: underline;
+	
+}
+.two:link {
+	COLOR: red;
+}
+.two:visited {
+	COLOR: red;
+}
+.two:hover {
+	FONT-SIZE: 150%;
+	}
+.on{
+    text-align:center;
+	}
+
+.table,th,td
+{
+border:2px solid black;
+}	
+TR:hover {
+	BACKGROUND-COLOR: green;
+}	
+	
+.newspaper
+{
+-moz-column-count:2; 
+-webkit-column-count:2; 
+column-count:2;
+
+}
+
+.OM{
+BORDER-BOTTOM: orange 3px solid;
+ BORDER-LEFT: orange 3px solid;
+ BORDER-TOP: orange 3px solid; 
+ BORDER-RIGHT: orange 3px solid;
+ text-align:center;
+  margin-left:450px;	
+  margin-right:450px;
+  background-color:#6495ed;
+  }
+.OMM{
+BORDER-BOTTOM: yellow 3px solid;
+ BORDER-LEFT: yellow 3px solid;
+ BORDER-TOP: yellow 3px solid; 
+ BORDER-RIGHT: yellow 3px solid;
+ text-align:center;
+  margin-left:450px;	
+  margin-right:450px;
+  background-color:#A0A0A0;
+}
+
+.fot1:hover {
+		-webkit-transition: 5s linear 1s;
+		-moz-transition: 5s linear 1s;
+		-o-transition: 5s linear 1s;
+		-ms-transition: 5s linear 1s;
+		transition: 3s linear 1s;
+        margin-left: 400px;
+
+					
+		}
+
+
+		
+.fot3:hover {
+		-webkit-transition: 2s ease-in-out;
+		-moz-transition: 2s  ease-in-out;
+		-o-transition: 2s ease-in-out ;
+		-ms-transition: 2s ease-in-out;   
+		transition: 2s  ease-in-out ;
+        transform:translate(50px,-110px);
+       -ms-transform:translate(50px,-110px); 
+       -webkit-transform:translate(20px,27px);
+		}		
+		
+.fot4:hover {
+	   -webkit-transition: 3s ease ;
+		-moz-transition: 3s  ease ;
+		-o-transition: 3s ease ;     
+		-ms-transition: 3s ease ;
+		transition: 3s  ease ;
+        transform:rotate(360deg);
+       -ms-transform:rotate(360deg); 
+       -webkit-transform:rotate(360deg);
+	   }	
+		
+.a li:hover{
+    background:	orange; 
+}
+ 
+ .a ul > li:hover{
+	background:	orange; 
+ }
+	
+	.dropmenu ul {
+font-family: Arial, Verdana;
+font-size: 22px;
+margin: 0;                      
+list-style: none;           
+line-height: 1.3em;
+}
+
+ .dropmenu ul li {
+     display: block;                 
+     position: relative;              
+     float: left;                   
+	 border:1px solid black;     
+	 padding-left:8px;
+	 padding-right:8px;
+	 background: yellow;	
+}
+.dropmenu li ul {
+display: none;
+}
+
+
+.dropmenu li:hover ul {
+display: block;         
+position: absolute;      
+}
+
+.dropmenu li:hover li {
+float: left;               
+font-size: 15px;        
+width:200px;
+margin-left:-49px;
+text-align:center;
+}
+
+.dropmenu ul li a {
+	color:black;               
+	text-decoration:none;
+	}
+	
